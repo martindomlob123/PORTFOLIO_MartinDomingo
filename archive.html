@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archive - Martín Domingo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/archive.css" />
+  </head>
+  <body>
+    <!-- ===================================
+       BARRA DE NAVEGACIÓN
+  =================================== -->
+    <nav class="navbar">
+      <a href="about.html" class="nav-item">About me</a>
+      <a href="index.html" class="nav-item">Martín Domingo</a>
+      <a href="archive.html" class="nav-item">Archive</a>
+    </nav>
+
+    <!-- ===================================
+       CONTENEDOR PRINCIPAL
+  =================================== -->
+    <div class="archive-container">
+      <!-- GRID DE IMÁGENES -->
+      <section class="images-section">
+        <!-- IMAGEN GRANDE IZQUIERDA -->
+        <div class="left-image">
+          <img
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=1600&fit=crop"
+            alt="Project 1"
+            onclick="showInfo('Project Title 1', 'This is a detailed description for project 1. You can add more information here about the project, technologies used, and outcomes.')"
+          />
+        </div>
+
+        <!-- IMÁGENES DERECHA (2 verticales) -->
+        <div class="right-images">
+          <img
+            src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=800&fit=crop"
+            alt="Project 2"
+            onclick="showInfo('Project Title 2', 'This is a detailed description for project 2. You can add more information here about the project, technologies used, and outcomes.')"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=800&fit=crop"
+            alt="Project 3"
+            onclick="showInfo('Project Title 3', 'This is a detailed description for project 3. You can add more information here about the project, technologies used, and outcomes.')"
+          />
+        </div>
+      </section>
+
+      <!-- ===================================
+         SECCIÓN DE INFORMACIÓN
+    =================================== -->
+      <section class="info-section">
+        <div class="info-content">
+          <h2 class="info-title" id="infoTitle">title</h2>
+          <p class="info-text" id="infoText">text</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="archive.js"></script>
+  </body>
+</html>
