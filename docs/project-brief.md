@@ -1,9 +1,9 @@
 # Project Brief
 
 _Student:_ [Martín Domingo]  
-_Handle:_ @[your-github-username]  
-_Course:_ Web Design 2025 · Fall  
-_Date:_ [Fill in date - Week 2]
+_Handle:_ @[martindomlob123]  
+_Course:_ Advanced web deign  
+_Date:_ [8/01/2026]
 
 ---
 
