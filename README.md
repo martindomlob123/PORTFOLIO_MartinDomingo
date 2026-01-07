@@ -1,6 +1,6 @@
-# PORTFOLIO_Mart-nDomingo
+# PORTFOLIO_MartinDomingo
 
-You can find the porject deploy here [https://martindomlob123.github.io/PORTFOLIO_Mart-nDomingo/](https://martindomlob123.github.io/PORTFOLIO_Mart-nDomingo/)
+You can find the porject deploy here [https://martindomlob123.github.io/PORTFOLIO_MartinDomingo/](https://martindomlob123.github.io/PORTFOLIO_MartinDomingo/)
 
 ## About the project
 
